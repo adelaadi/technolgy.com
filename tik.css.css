@@ -1,0 +1,228 @@
+body {
+    margin: 10px;
+    margin-top: 50px;
+    font-family:sans-serif;
+}
+header {
+    display: flex;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    height: 50px;
+    line-height: 50px;
+    background-color: aqua;
+
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+header ul {
+    height: 30vh;
+    padding: 0;
+}
+.section {
+    height: 300vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+}
+.Slide {
+    width: 100%;
+    height: 40vh;
+    color: #fff;
+    background-size: 400%,400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+    
+}
+#Slide{
+    background:linear-gradient(-45deg ,#0c4292 ,#1947ac ,#0eb5bb ,#23D5AB)
+}
+
+
+@keyframes change {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+    p { 
+        font-size:14px; 
+        color:black; 
+        font-weight:bold; 
+        font-style:italic;
+        text-align: right;
+        margin-inline-end: 30px;
+        margin-top: 60px;
+        margin-bottom: 70px;
+        border-top-style: solid;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+      }
+    
+    
+    
+  }
+    .slider {
+        overflow: hidden;
+        height: 400px;
+        width: 300px;
+    }
+    .slider figure div {
+        float: left;
+        width: 20%;
+
+    }
+    .slider figure img {
+        width: 100%;
+        float: left;
+    }
+    .slider figure {
+        position: relative;
+        width: 1000%;
+        margin: 0px;
+        left: 0;
+        animation: 20s ravi infinite;
+    }
+    @keyframes ravi {
+        0% {
+            left: 0%;
+        }
+        10% {
+            left: 0%;
+        } 12% {
+            left: -100%;
+        } 22% {
+            left: -100%;
+        } 24% {
+            left: -200%;
+        } 24% {
+            left: -200%;
+        } 36% {
+            left: -300%;
+        } 46% {
+            left: -300%;
+        } 48% {
+            left: -400%;
+        } 58% {
+            left: -400%;
+        } 60% {
+            left: -300%;
+        } 70% {
+            left: -300%;
+        } 72% {
+            left: -200%;
+        } 82% {
+            left: -200%;
+
+        }84% {
+            left: -100%;
+        } 94% {
+            left: -100%;
+        } 96% {
+             left: 0%;
+        }
+
+    }
+    
+      
+    
+  
+      
+      h1 {
+          font-size: 40px;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          border: 3px solid rgb(75, 224, 250);
+          position: absolute;
+          top: 20%;
+          left: 40%;
+          transform: -50% ,-50%;
+          padding: 5px 10px;
+      }
+      h2 {
+          font-size: 20px;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          border: 3px solid rgb(75, 224, 250);
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: -50% ,-50%;
+          padding: 5px 10px;
+      }
+      #HTML {
+        background-image:linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbzBv5PlZPI5G9Bker2CuuH_lzoBdRrXsWJg&usqp=CAU);
+      }
+      #JAVA {
+        background-image:linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url(https://stackify.com/wp-content/uploads/2018/09/Java-Debugging-Tips-1280x720.jpg);
+      }
+      #JAVASCRIPT {
+        background-image:linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url(https://cdn.searchenginejournal.com/wp-content/uploads/2020/02/seo-javascript-the-good-the-bad-the-uncertainty-5e4a09b3cd5db.png);
+      }
+      #PYTHON {
+        background-image:linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url(https://i2ds.org/wp-content/uploads/2020/03/python-faq-670x335-1.jpg);
+      }
+      #CSS {
+        background-image:linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url(https://cdn.mos.cms.futurecdn.net/Vp9WvV7YKdH4k8sKRePcE8-320-80.jpg);
+      }
+      #DN {
+        background-image:linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url(https://hub.packtpub.com/wp-content/uploads/2018/05/programming.jpg);
+      }
+      #Informacioni {
+        background-image:linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url(https://keydifferences.com/wp-content/uploads/2016/09/data-vs-informaton.jpg);
+    
+      }
+      .img {
+          width: 100px;
+          height: 150px;
+      }
+      h3  { font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border: 3px solid rgb(75, 224, 250);
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        transform: -50% ,-50%;
+        padding: 5px 10px; 
+
+      }
+      h4 {
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border: 3px solid rgb(75, 224, 250);
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        transform: -50% ,-50%;
+        padding: 5px 10px;
+      }
+      ​.button {
+        border:none;
+        color: rgba(20, 22, 196, 0.753);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      
